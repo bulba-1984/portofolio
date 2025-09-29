@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" 
+/>
+    <title>Mon Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mon Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#work">Travail</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h2>Bienvenue !</h2>
+      <p>
+        Bienvenue sur mon portfolio. Vous trouverez ici mes projets, mon 
+CV et
+        mes coordonnées.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>À propos de moi</h2>
+      <p>
+        Je suis un développeur passionné par le web et les nouvelles
+        technologies.
+      </p>
+
+      <h3>Vidéo YouTube</h3>
+    <iframe width="560" height="315" 
+src="https://www.youtube.com/embed/LamjAFnybo0?si=9RazRwscO8dSuyAr" 
+title="YouTube video player" frameborder="0" allow="accelerometer; 
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+web-share" referrerpolicy="strict-origin-when-cross-origin" 
+allowfullscreen>
+
+    </iframe>
+    
+
+    <!-- Audio SoundCloud -->
+    <h3>Audio SoundCloud</h3>
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" 
+      allow="autoplay" 
+      
+src="https://soundcloud.com/deep-house-london/premiere-jan-blomqvist-space-in-between-original-mix?si=676848fa648c4a9b916427d967244285&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+    </iframe>
+    </section>
+
+
+    <section id="work">
+      <h2>Mes Projets</h2>
+      <ul>
+        <li>Projet 1 - Application web</li>
+        <li>Projet 2 - Site e-commerce</li>
+        <li>Projet 3 - Portfolio personnel</li>
+      </ul>
+    </section>
+
+    <section id="cv">
+      <h2>Mon CV</h2>
+      <table border="1" cellpadding="5">
+        <tr>
+          <th>Année</th>
+          <th>Expérience</th>
+        </tr>
+        <tr>
+          <td>2023</td>
+          <td>Développeur Front-End chez MCA el kavia</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Développeur Full Stack Freelance</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contactez-moi</h2>
+      <form action="/submit" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required /><br /><br />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required /><br /><br 
+/>
+
+        <label for="message">Message :</label><br />
+        <textarea id="message" name="message" rows="4" 
+cols="30"></textarea
+        ><br /><br />
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Mon Portfolio - Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
+
